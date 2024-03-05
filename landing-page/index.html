@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackpearl cakes and creations</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+
 </head>
 <body>
     <header class="header">
@@ -23,21 +25,37 @@
        <!-- Home Section -->
        <section class="home">
             <div class="home-content">
-               <h3>Indulge in moments of sweetness and joy,<br> one slice at a time.</h3> 
-               <h2> Welcome to a world <br>where every cake tells <br><span>A Delicious Story.</span></h2>
+               <h2>Indulge in moments of sweetness and joy,<br><span>one slice at a time.</span> </h2> 
+               <h3> Welcome to a world where every cake tells  <br><span>a delicious story.</span></h3>
+               <button>Order Now</button>
             </div>
             <div class="home-img">
                 <img src="images/home-pic.png" alt="">
             </div>
        </section>
 
-       <!-- Banners section -->
-       <section class="banners">
-
+       <!-- Special section -->
+       <section class="special">
+            <div class="special-container">
+                <div class="cake-img">
+                        <img src="images/special.png" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </div>
+                </div>
+                <div class="special-content">
+                    <h2>Today's Special</h2>
+                    <h3>Pine-apple Ganache Cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum maiores quasi rem non pariatur consequuntur voluptatum reiciendis, voluptate labore, veritatis recusandae natus minus voluptates fugit quidem dolore id tempora! Cumque, consectetur? Magnam dicta non iusto?</p>
+                </div>
+            </div>
        </section>
 
        <!-- Categories section -->
-       <section class="categories">
+       <section class="categories" id="categories">
+        <h2>What would you like to order?</h2>
+
         <div class="category-container">
             <div class="category-card">
                 <img src="images/wedding-cake.png" alt="">
@@ -72,9 +90,11 @@
         </div>
         <div class="customize">
             <div class="customize-card">
-                <img src="" alt="">
+                <div class="customize-img">
+                    <img src="images/customize.webp" alt="">
+                </div>
                 <div class="customize-content">
-                    <h2>Customize your own cake!</h2>
+                    <h2><span>Customize</span><br>your own cake!</h2>
                     <button>Contact Us</button>
                 </div>
             </div>
@@ -82,54 +102,98 @@
 
        </section>
 
-       <!-- Why Us Section -->
-       <!-- <section class="why-us">
-
-       </section> -->
 
        <!-- cakes section -->
        <section class="cakes">
-        <h2>Featured Cakes</h2>
+        <h2>Our Featured Cakes</h2>
         <div class="cake-container">
             <div class="cake-card">
-                <img src="" alt="">
-                <p>Name</p>
-                <p>price</p>
+                <div class="cake-img">
+                    <img src="images/featured/f1.png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+                <p class="name">Chocolate drip cake</p>
+                <p class="price">Rs.4,000.00</p>
             </div>
             <div class="cake-card">
-                <img src="" alt="">
-                <p>Name</p>
-                <p>price</p>
+                <div class="cake-img">
+                    <img src="images/featured/f2.png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+                <p class="name">Chocobomb special cake</p>
+                <p class="price">Rs.5,800.00</p>
             </div>
             <div class="cake-card">
-                <img src="" alt="">
-                <p>Name</p>
-                <p>price</p>
+                <div class="cake-img">
+                    <img src="images/featured/f3.png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+                <p class="name">Glazed cake</p>
+                <p class="price">Rs.4,500.00</p>
             </div>
             <div class="cake-card">
-                <img src="" alt="">
-                <p>Name</p>
-                <p>price</p>
+                <div class="cake-img">
+                    <img src="images/featured/f4.png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+                <p class="name">Nutella cupcake</p>
+                <p class="price">Rs.160.00</p>
             </div>
             <div class="cake-card">
-                <img src="" alt="">
-                <p>Name</p>
-                <p>price</p>
+                <div class="cake-img">
+                    <img src="images/featured/f5.png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+                <p class="name">Chocolate lava cake</p>
+                <p class="price">Rs.420.00</p>
             </div>
             <div class="cake-card">
-                <img src="" alt="">
-                <p>Name</p>
-                <p>price</p>
+                <div class="cake-img">
+                    <img src="images/featured/f6.png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+                <p class="name">Buttercream cupcake</p>
+                <p class="price">Rs.120.00</p>
             </div>
             <div class="cake-card">
-                <img src="" alt="">
-                <p>Name</p>
-                <p>price</p>
+                <div class="cake-img">
+                    <img src="images/featured/f7.png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+                <p class="name">Apple cake</p>
+                <p class="price">Rs.100.00</p>
             </div>
             <div class="cake-card">
-                <img src="" alt="">
-                <p>Name</p>
-                <p>price</p>
+                <div class="cake-img">
+                    <img src="images/featured/f8.png" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+                <p class="name">Red velvet cake</p>
+                <p class="price">Rs.5,500.00</p>
             </div>
         </div>
 
@@ -137,7 +201,23 @@
 
        <!-- Footer -->
        <footer class="footer">
-
+        <div class="logo"><img src="images/footer-logo.png" alt=""></div>
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 Black pearl cakes & creations  | All Rights Reserved.</p>
+        </div>
+        <div class="social-media">
+            <h4>Get Social</h4>
+            <div class="media-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        
+      
+            
+           
+        
        </footer>
 </body>
 </html>
